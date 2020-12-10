@@ -16,6 +16,7 @@ alias gcm='git commit -m'
 alias gdbb="git branch -l 'bug/*' | xargs -i git branch -D {}"
 alias gdfb="git branch -l 'feature/*' | xargs -i git branch -D {}"
 alias gpl='git pull'
+alias grr='( RaD="$( git rev-parse --git-path 'rebase-apply/' )" && N=$( cat "${RaD}next" ) && L=$( cat "${RaD}last" ) && echo "${N} / ${L}" ; )'
 
 # Docker
 alias d='docker'
