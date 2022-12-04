@@ -1,6 +1,6 @@
 # Git
-alias gla="git --no-pager log --all --color=always --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %s%C(reset) %C(dim white)- %ae%C(reset)%C(bold yellow)%d%C(reset)' | less"
-alias gl="git --no-pager log --color=always --abbrev-commit --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %s%C(reset) %C(dim white)- %ae%C(reset)%C(bold yellow)%d%C(reset)' | less"
+alias gla="git --no-pager log --all --color=always --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %s%C(reset) %C(dim white)- %ae%C(reset)%C(bold yellow)%d%C(reset)' | less -R"
+alias gl="git --no-pager log --color=always --abbrev-commit --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %s%C(reset) %C(dim white)- %ae%C(reset)%C(bold yellow)%d%C(reset)' | less -R"
 alias glf="git log --format=format:\"%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %s%C(reset) %C(dim white)- %ae%C(reset)%C(bold yellow)%d%C(reset)\""
 alias glfh="git log -p"
 alias gc='git checkout'
