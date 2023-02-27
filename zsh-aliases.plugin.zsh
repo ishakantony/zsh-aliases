@@ -49,3 +49,6 @@ alias list-target='find . -name "target" -type d -prune | xargs du -chs'
 alias delete-node-modules='find . -name "node_modules" -type d -prune -exec rm -rf '{}' +'
 alias delete-vendor='find . -name "vendor" -type d -prune -exec rm -rf '{}' +'
 alias delete-target='find . -name "target" -type d -prune -exec rm -rf '{}' +'
+
+# Gitlab Runner
+alias gr='gitlab-runner'
